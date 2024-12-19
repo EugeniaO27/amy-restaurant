@@ -25,7 +25,7 @@ const Featured = () => {
                 {item.title}
               </h1>
               <p className="p-4 2xl:p-8">{item.desc}</p>
-              <span className="text-xl font-bold">{item.price}</span>
+              <span className="text-xl font-bold">${item.price}</span>
               <button className="p-2 rounded-md cursor-pointer text-white bg-red-500">
                 Add to cart
               </button>

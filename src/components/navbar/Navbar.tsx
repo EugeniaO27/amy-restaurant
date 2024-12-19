@@ -13,7 +13,7 @@ const Navbar = () => {
           className="h-12 md:h-24 text-red-500 p-4 flex items-center justify-between border-b-2
                     border-b-red-500 lg:px-20 xl:px-40">
           <div className="hidden md:flex gap-4 uppercase flex-1">
-            <Link href="/">Homepage</Link>
+            <Link href="/">Home</Link>
             <Link href="/menu">menu</Link>
             <Link href="/contact">contact</Link>
           </div>
